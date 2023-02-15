@@ -1,0 +1,5 @@
+create secure materialized view SMV_CHERRY_CREEK_TRAIL
+    as 
+    select * from MELS_SMOOTHIE_CHALLENGE_DB.TRAILS.T_CHERRY_CREEK_TRAIL;
+    
+    select * from MELS_SMOOTHIE_CHALLENGE_DB.TRAILS.SMV_CHERRY_CREEK_TRAIL;
